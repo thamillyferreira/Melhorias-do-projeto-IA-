@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THAMILLY IA — Missão Futuro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="container">
+
+    <section class="hero" id="inicio">
+      <div class="badge">🌸 THAMILLY IA</div>
+
+      <h1>Missão Futuro</h1>
+
+      <p>
+        Descubra como você pensa, decide e se relaciona
+        com a Inteligência Artificial.
+      </p>
+
+      <div class="card intro-card">
+        <div class="robot">🤖</div>
+
+        <h2>Preparada para a missão?</h2>
+
+        <p>
+          Responda 10 situações e descubra seu perfil digital.
+        </p>
+
+        <button id="startBtn">
+          Começar missão ✨
+        </button>
+      </div>
+    </section>
+
+
+    <section class="game hidden" id="game">
+
+      <div class="top-info">
+        <span id="questionCounter">1 / 10</span>
+
+        <span>
+          MISSÃO <strong id="missionNumber">01</strong>
+        </span>
+      </div>
+
+      <div class="progress-bar">
+        <div id="progress"></div>
+      </div>
+
+      <div class="card question-card">
+
+        <span class="question-tag">
+          DESAFIO DIGITAL
+        </span>
+
+        <h2 id="question"></h2>
+
+        <div id="answers" class="answers"></div>
+
+      </div>
+
+    </section>
+
+
+    <section class="result hidden" id="result">
+
+      <div class="card result-card">
+
+        <div class="result-icon" id="resultIcon">
+          🌸
+        </div>
+
+        <span class="question-tag">
+          MISSÃO CONCLUÍDA
+        </span>
+
+        <h2 id="resultTitle"></h2>
+
+        <p id="resultText"></p>
+
+        <div class="score-box">
+
+          <span>
+            Seu perfil digital
+          </span>
+
+          <strong id="resultProfile"></strong>
+
+        </div>
+
+        <button id="restartBtn">
+          Jogar novamente 🔄
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
